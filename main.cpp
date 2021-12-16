@@ -139,7 +139,7 @@ int main() {
     isClosing = true;
     printf("\nIT IS CLOSING TIME!\n\n");
     sleep(2);
-isClosed = true;
+    isClosed = true;
     printf("\nCARETAKER CLOSED THE MUSEUM!\n\n");
     for (int j = 0; j < numberOfVisitors; ++j) {
         if (isIn[j]) {
